@@ -9,7 +9,7 @@
     tools:context=".MyActivity">
 
     <TextView
-        android:text="@string/hello_world"
+        android:text="Hello Cloud Endpoints"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView" />
@@ -17,11 +17,9 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/getquotes"
+        android:text="Get Quotes"
         android:id="@+id/btnGetQuotes"
         android:layout_below="@+id/textView"
         android:onClick="getQuotes"
-    />
-
-
+        />
 </RelativeLayout>
